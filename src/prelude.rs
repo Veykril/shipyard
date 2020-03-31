@@ -2,9 +2,9 @@ pub use crate::get::GetComponent;
 pub use crate::iter::{CurrentId, ExactSizeShiperator, IntoIter, IntoIterIds, Shiperator};
 pub use crate::not::Not;
 pub use crate::remove::Remove;
-pub use crate::run::System;
 #[doc(hidden)]
 pub use crate::run::{FakeBorrow, SystemData};
+pub use crate::run::{StorageBorrow, System};
 pub use crate::sparse_set::sort::IntoSortable;
 pub use crate::storage::{AllStorages, Entities, EntitiesMut, EntityId};
 pub use crate::views::{
